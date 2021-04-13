@@ -318,79 +318,27 @@ h4 {
 #contenedordeiconos {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
   margin-top: 56px;
   margin-left: 200px;
   margin-right: 200px;
-  height: 130px;
+  
   
   
   border: solid 1px black;
 }
 
-.iconos {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-.xd {
- display: flex;
- flex-direction: column;
- flex-wrap: wrap;
- color: red;
-}
-
-#descripcionesDeIconos {
-   display: flex;
-   justify-content: space-around;
-   margin-left: 200px;
-   margin-right: 200px;
-}
-
- #descripcionesDeIconos p:nth-child(1) {
-   display: flex;
-   height: 32px;
-   font-size: 24px;
-   color: #060A24;
-   letter-spacing: 0;
-   text-align: center;
-   font-family: 'IBMPlexSans', sans-serif;
-
-}
-
-#descripcionesDeIconos p:nth-child(2) {
-  display: flex;
-   height: 64px;
-   font-size: 24px;
-   color: #060A24;
-   letter-spacing: 0;
-   text-align: center;
-   font-family: 'IBMPlexSans', sans-serif;
-}
-
-#descripcionesDeIconos p:nth-child(3) {
-  display: flex;
-  height: 32px;
+.descripcionIcono {
   font-size: 24px;
   color: #060A24;
   letter-spacing: 0;
   text-align: center;
-  font-family: 'IBMPlexSans', sans-serif;
-
-}
-
-#descripcionesDeIconos p:nth-child(4) {
-  display: flex;
-  height: 64px;
-  font-size: 24px;
-  color: #060A24;
-  letter-spacing: 0;
-  text-align: center;
-  font-family: 'IBMPlexSans', sans-serif;
+  justify-content: center;
   
-}
+ }
+
+
+
 
 #contenedordelsegundopoligono {
   height: 518px;
@@ -574,6 +522,9 @@ h4 {
     width: 100%;
   }
 
+  .contenedordeiconos {
+    margin-top: 34px;
+  }
   .contenedorFinal {
     flex-direction: column;
    
@@ -646,9 +597,11 @@ h4 {
   .contenedorimgtlf {
     position: relative;
     top: -100px;
+    left: -20px;
     height: 519px;
     width: 360px;
     margin: auto;
+    
   }
 
   .contenedorsegundotituloyparrafo {
@@ -694,9 +647,7 @@ h4 {
 
   }
 
-  .contenedordelsegundopoligono {
-   
-  }
+ 
 
   .poligono2 {
     clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 100%);
@@ -706,11 +657,16 @@ h4 {
   }
 
   .contenedorAlgunosdenuestrostemas {
+    margin-top: 24px;
     margin-left: 16px;
     width: 100%;
   }
 
+  #contenedordeiconos {
+   margin-top: 34px;
+   margin-left:100px;
 
+  }
 
   #AñodeLanzamiento {
      margin-left: 47px;
