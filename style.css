@@ -17,15 +17,16 @@ html {
 
 .primercontainer {
   display: flex;
-  border: solid 1px black;
   height: 80px;
   width: 100%;
+
 }
 
 .containerprimerlogo {
   display: flex;
   width: 50%;
   height: 100%;
+
 }
 
 .primerlogo {
@@ -34,27 +35,33 @@ html {
   align-content: center;
   margin-left: 50px;
   height: 100%;
+
 }
+
 .containernavegacion {
   display: flex;
   justify-content: space-evenly;
   margin-top: 26px;
   width: 100%;
   margin-bottom: 100px;
+
 }
 
 a:visited {
   color: black;
+
 }
 
 a:hover {
   color: #00f3bb;
   text-decoration: line-through;
+
 }
 
 a:active {
   color: rgba(6,10,36,0.56);
   text-decoration: line-through;
+
 }
 
 a {
@@ -71,6 +78,7 @@ a {
 .contenedorhamburguesa {
   width: 100%;
   flex-direction: column;
+
 }
 
 .menu-desplazable {
@@ -81,6 +89,7 @@ a {
   cursor: pointer;
   transition: all .4s ease;
   transform: translate(100%);
+
 }
 
 .container-burger {
@@ -152,35 +161,41 @@ lu:hover {
 
 .linea-top {
   top: 25%;
+
 }
 
 .linea-low {
   /* transform: translate(-50%, -50%); */
   top: 75%;
+
 }
 
 .custom-checkbox:checked + .label-burger .container-burger .linea-med {
   opacity: 0
+
 }
+
 .custom-checkbox:checked + .label-burger .container-burger .linea-top {
   top: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
   background-color: black;
+
 }
 
 .custom-checkbox:checked + .label-burger .container-burger .linea-low {
   top: 50%;
   transform: translate(-50%, -50%) rotate(-45deg);
   background-color:black;
+
 }
+
 .containertituloprincipal {
   width: 100%;
   height: 50%;
   display: flex;
   margin-top: 30px;
-  border: solid black 1px;
   
-}
+  }
 
 .TituloPrincipal {
   font-size: 64px;
@@ -198,9 +213,8 @@ lu:hover {
   height: 50%;
   width: 100%;
   margin-top: 16px;
-  border: solid black 1px;
 
-}
+  }
 
 .primerparrafo {
   width: 63%;
@@ -245,9 +259,8 @@ lu:hover {
   display: flex;
   height: 1042px;
   margin-top: 5px;
-  border: solid black 1px;
 
-}
+  }
 
 .poligono {
   display: flex;
@@ -267,7 +280,7 @@ lu:hover {
   
 }
 
-.episodio {
+#episodio {
   height: 62px;
   font-size: 48px;
   color: #ffffff;
@@ -282,10 +295,8 @@ lu:hover {
   width: 100%;
   height: 50%;
   display: flex;
-  
-  
-  border: 1px solid black;
-}
+
+  }
 
 .podcast {
   display: flex;
@@ -293,22 +304,19 @@ lu:hover {
   justify-content: space-between;
   width: 85%;
   margin-top: 26px;
-  
-  
   margin-left: 100px;
   
 }
 
-.contenedor-imgytexto {
+#contenedor-imgytexto {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   height: auto;
-  border: solid 1px black;
 
-}
+  }
 
-.contenedorimgtlf {
+#contenedorimgtlf {
   display: flex;
   flex-direction: column;
   margin-left: 200px;
@@ -316,9 +324,8 @@ lu:hover {
   height: 660px;
   position: relative;
   top: -200px;
-  border: 1px solid black;
 
-}
+  }
 
 .contenedorsegundotituloyparrafo {
   display: flex;
@@ -327,12 +334,11 @@ lu:hover {
   width: 50%;
   height: 50%;
   margin-top: 20.4px;
-  border: solid 1px black;
   margin-left: 62.4px;
   
 }
 
-h3 {
+#dedondevenimos {
   display: flex;
   font-family: "IBMPlexSans", sans-serif;
   font-size: 30px;
@@ -341,6 +347,7 @@ h3 {
   letter-spacing: 0;
   height: 62px;
   width: 50%;
+
 }
 
 .contenedorparrafo2 {
@@ -349,28 +356,29 @@ h3 {
   flex-wrap: wrap;
   height: 204px;
   width: 70%;
+
 }
 
 p {
   display: flex;
   font-family: "IBMPlexMono", monospace;
-  
   font-size: 16px;
   color: #060a24;
   letter-spacing: 0;
   line-height: 24px;
+
 }
 
-.contenedorInvitadas-estelares {
+#contenedorInvitadas-estelares {
   display: flex;
   height: 62px;
   margin-top: 64px;
   margin-left: 200px;
   margin-bottom: 36px;
-  border: solid 1px black;
-}
 
-div.contenedorInvitadas-estelares h3 {
+  }
+
+div#contenedorInvitadas-estelares h3 {
   display: flex;
   width: 100%;
   height: 62px;
@@ -397,19 +405,17 @@ div.contenedorInvitadas-estelares h3 {
   
 }
 
-.contenedorAlgunosdenuestrostemas {
+#contenedorAlgunosdenuestrostemas {
   display: flex;
   height: 62px;
   margin-left: 200px;
   margin-top: 64px;
   margin-right: 654px;
-  border: solid 1px black;
 
-}
+  }
 
 h4 {
   display: flex;
-
   font-family: "IBMPlexSans", sans-serif;
   font-size: 40px;
   color: #060a24;
@@ -425,9 +431,6 @@ h4 {
   margin-left: 200px;
   margin-right: 200px;
   
-  
-  
-  border: solid 1px black;
 }
 
 .descripcionIcono {
@@ -444,7 +447,6 @@ h4 {
   height: 518px;
   width: 100%;
   margin-top: 34px;
-  border: 1px solid black;
   
 }
 
@@ -554,7 +556,7 @@ h4 {
 
   }
 
-  .episodio {
+  #episodio {
     margin-left: 16px;
     margin-top: 64px;
     width: 100%; 
@@ -573,11 +575,11 @@ h4 {
 
  
     
-  .contenedor-imgytexto {
+  #contenedor-imgytexto {
     flex-wrap: nowrap;
   }
 
-  .contenedorimgtlf {
+  #contenedorimgtlf {
     position: relative;
     top: -80px;
     
@@ -617,7 +619,7 @@ h4 {
 
   
 
-  .contenedorAlgunosdenuestrostemas {
+  #contenedorAlgunosdenuestrostemas {
     margin-left: 16px;
     width: 100%;
   }
@@ -687,7 +689,7 @@ h4 {
   }
 
   
-  .episodio {
+  #episodio {
     margin-left: 16px;
     margin-top: 64px;
     width: 100%;
@@ -721,7 +723,7 @@ h4 {
     
   }
 
- .contenedorimgtlf {
+ #contenedorimgtlf {
     position: relative;
     top: -100px;
     left: -35px;
@@ -752,7 +754,7 @@ h4 {
 
   
   
-  .contenedorInvitadas-estelares {
+  #contenedorInvitadas-estelares {
     font-size: 36px;
     margin-left: 16px;
     
@@ -778,7 +780,7 @@ h4 {
 
   }
 
-  .contenedorAlgunosdenuestrostemas {
+  #contenedorAlgunosdenuestrostemas {
     margin-top: 24px;
     margin-left: 10px;
     width: 100%;
