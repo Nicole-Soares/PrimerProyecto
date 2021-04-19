@@ -570,26 +570,29 @@ h4 {
     
   }
 
-  .reproductor {
-   
-  }
+ 
     
-  
+  .contenedor-imgytexto {
+    flex-wrap: nowrap;
+  }
 
   .contenedorimgtlf {
     position: relative;
     top: -80px;
+    
     height: 519px;
     width: 360px;
     margin: auto;
+    
   }
 
   .contenedorsegundotituloyparrafo {
     margin-top: 27px;
     margin-left: 16px;
-    height: 100%;
+   
     width: 100%;
-    flex-wrap: wrap;
+    
+    
   }
 
   .contenedorparrafo2 {
@@ -722,7 +725,6 @@ h4 {
     position: relative;
     top: -100px;
     left: -35px;
-    
     height: 519px;
     width: 360px;
     margin: auto;
