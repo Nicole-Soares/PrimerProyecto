@@ -292,6 +292,7 @@ lu:hover {
   flex-flow: wrap;
   justify-content: space-between;
   width: 85%;
+  margin-top: 26px;
   
   
   margin-left: 100px;
@@ -567,8 +568,8 @@ h4 {
   .podcast {
     margin-left: 11px;
     height: 100%;
-    
-  }
+
+    }
 
  
     
@@ -601,21 +602,20 @@ h4 {
     width: 288px;
   }
 
+
+  
   #filadefotos {
-    flex-direction: column;
+    width: 100%;
     
     
   }
 
   #segundafiladefotos {
-    flex-direction: column;
+    width: 100%;
     
   }
 
-  .imagen {
-    width: 100%;
-    
-   }
+  
 
   .contenedorAlgunosdenuestrostemas {
     margin-left: 16px;
