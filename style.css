@@ -165,7 +165,7 @@ lu:hover {
 }
 
 .linea-low {
-  /* transform: translate(-50%, -50%); */
+  
   top: 75%;
 
 }
@@ -274,7 +274,6 @@ lu:hover {
 }
 
 .containerepisodio {
-  border: solid black 1px;
   display: flex;
   flex-direction: column;
   
@@ -844,7 +843,5 @@ h4 {
     margin-left: 30px;
     
     
-    }
-  
-
-
+  }
+}
